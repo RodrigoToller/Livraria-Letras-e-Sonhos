@@ -1,0 +1,45 @@
+.banner{
+
+    background: var(--degrade-roxo);
+    color: var(--cor-base);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner-titulo{
+
+    font-size: 18px;
+    font-weight: 700;
+
+
+}
+
+.banner-texto {
+
+    font-weight: 500;
+    margin: 20px 0 20px 0;
+
+}
+
+.banner-pesquisa{
+
+
+    background-color: transparent;
+    border: 1px solid var(--cor-base);
+    color: var(--cor-base);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+
+}
+
+.banner-pesquisa::placeholder{
+
+    color: var(--cor-base);
+    font-size: 14px;
+    font-weight:400;
+    text-align: center;
+    background: url("../../img/procurar.png") no-repeat;
+    background-size: 16px;
+
+}
